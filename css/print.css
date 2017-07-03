@@ -1,0 +1,54 @@
+/*公共样式相关*/
+*{
+    font-family: "宋体";
+    color: #000;
+    font-size: 12pt;
+    line-height:20pt;
+    list-style: none;
+    background:none;
+    margin:0;
+    padding:0;
+}
+i,em{
+    font-style: normal;
+}
+.break_before {
+    page-break-before: always;
+}
+.break_after {
+    page-break-after: always;
+}
+/*/ 公共样式相关 */
+/*合同样式相关*/
+.ht_msg{
+    margin:2em 0;
+}
+.ht_msg_bottom{
+    position: relative;
+}
+.ht_msg_bottom .ht_list_last:first-child{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.ht_msg_bottom .ht_list_last:last-child{
+    position: absolute;
+    left:40%;
+    top:0;
+}
+.ht_title1{
+    display: block;
+    font-size: 22pt;
+    text-align: center;
+    margin:15pt 0;
+}
+.ht_msg>p:first-child{
+    font-weight:bold;
+}
+.noprint{
+    display: none;
+}
+.ht_msg_tit{
+    margin:0;
+}
+/*/合同样式相关*/
